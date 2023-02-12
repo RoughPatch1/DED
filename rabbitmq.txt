@@ -1,0 +1,9 @@
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-SHADOW-577863
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-PCRE3-580031
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-NCURSES-1656318
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-NCURSES-2770341
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUPG2-3035407
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1297554
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-2415100
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-COREUTILS-583876
+https://security.snyk.io/vuln/SNYK-UBUNTU2004-SYSTEMD-3098845

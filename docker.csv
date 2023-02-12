@@ -1,0 +1,2 @@
+,Name,Link,Affected Package,Description
+0,Denial of Service (DoS) in golang.org/x/net/http2 | CVE-2022-41717 | Snyk,https://www.cve.org/CVERecord?id=CVE-2022-41717,golang.org/x/net/http2,"Affected versions of this package are vulnerable to Denial of Service (DoS) due to improper checks and limitations for the number of entries in the cache, which can allow an attacker to consume unbounded amounts of memory by sending a small number of very large keys."

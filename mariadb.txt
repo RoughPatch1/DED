@@ -1,0 +1,10 @@
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-PCRE3-2799820
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-OPENSSL-3167951
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-NCURSES-2801048
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-KRB5-2797765
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-GNUPG2-3035409
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-GLIBC-2801292
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-COREUTILS-2801226
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-BASH-3098342
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-SYSTEMD-3098846
+https://security.snyk.io/vuln/SNYK-UBUNTU2204-SQLITE3-3167716
