@@ -1,0 +1,37 @@
+#include <tunables/global>
+
+/usr/sbin/apache2 {
+  # Restrict file system access
+  # Most directories are read-only, except for a few that require write access
+  / -> ro,
+  /usr -> ro,
+  /var -> rw,
+  /var/cache -> rw,
+  /var/log -> rw,
+  /var/run/apache2.pid w,
+  /var/www/html/ rw,
+  /etc/apache2/ -> ro,
+
+  # Restrict execution of certain binaries
+  deny /bin/*,
+  deny /usr/bin/*,
+  /usr/sbin/apache2 mr,
+
+  # Allow necessary capabilities
+  capability chown,
+  capability dac_override,
+  capability setgid,
+  capability setuid,
+  capability net_bind_service,
+
+  # Allow network access
+  network inet tcp,
+  network inet6 tcp,
+  network unix dgram,
+  network inet icmp,
+  network inet6 icmp,
+
+  # Disable raw socket access
+  deny @{PROC}/net/raw r,
+  deny @{PROC}/sys/net/core/somaxconn rw,
+}
